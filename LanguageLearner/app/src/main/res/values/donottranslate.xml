@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Farsi translation for color red -->
+    <string name="farsi_color_red">qermez</string>
+
+    <!-- Farsi translation for color dusty yellow -->
+    <string name="farsi_color_yellow">zard</string>
+
+    <!-- Farsi translation for color green -->
+    <string name="farsi_color_green">sabz</string>
+
+    <!-- Farsi translation for color brown -->
+    <string name="farsi_color_brown">qahvei</string>
+
+    <!-- Farsi translation for color black -->
+    <string name="farsi_color_black">siyah</string>
+
+    <!-- Farsi translation for color gray -->
+    <string name="farsi_color_gray">xakestari</string>
+
+    <!-- Farsi translation for color white -->
+    <string name="farsi_color_white">sefid</string>
+
+    <!-- Farsi translation for father -->
+    <string name="farsi_family_father">pedar</string>
+
+    <!-- Farsi translation for mother -->
+    <string name="farsi_family_mother">madar</string>
+
+    <!-- Farsi translation for son -->
+    <string name="farsi_family_son">pesar</string>
+
+    <!-- Farsi translation for daughter -->
+    <string name="farsi_family_daughter">doxtar</string>
+
+    <!-- Farsi translation for older brother -->
+    <string name="farsi_family_older_brother">baradar kalan</string>
+
+    <!-- Farsi translation for younger brother -->
+    <string name="farsi_family_younger_brother">baradar koocheek</string>
+
+    <!-- Farsi translation for older sister -->
+    <string name="farsi_family_older_sister">xwahar kalan</string>
+
+    <!-- Farsi translation for younger sister -->
+    <string name="farsi_family_younger_sister">xwahar koocheek</string>
+
+    <!-- Farsi translation for grandmother -->
+    <string name="farsi_family_grandmother">madarbozorg</string>
+
+    <!-- Farsi translation for grandfather -->
+    <string name="farsi_family_grandfather">pedarbozorg</string>
+
+    <!-- Farsi translation for number one -->
+    <string name="farsi_number_one">yak</string>
+
+    <!-- Farsi translation for number two -->
+    <string name="farsi_number_two">doh</string>
+
+    <!-- Farsi translation for number three -->
+    <string name="farsi_number_three">xeh</string>
+
+    <!-- Farsi translation for number four -->
+    <string name="farsi_number_four">chahar</string>
+
+    <!-- Farsi translation for number five -->
+    <string name="farsi_number_five">pang</string>
+
+    <!-- Farsi translation for number six -->
+    <string name="farsi_number_six">shash</string>
+
+    <!-- Farsi translation for number seven -->
+    <string name="farsi_number_seven">haft</string>
+
+    <!-- Farsi translation for number eight -->
+    <string name="farsi_number_eight">hasht</string>
+
+    <!-- Farsi translation for number nine -->
+    <string name="farsi_number_nine">noh</string>
+
+    <!-- Farsi translation for number ten -->
+    <string name="farsi_number_ten">dah</string>
+
+    <!-- Farsi translation for phrase "Where are you going?" -->
+    <string name="farsi_phrase_where_are_you_going">minto wuksus</string>
+
+    <!-- Farsi translation for phrase "What is your name?" -->
+    <string name="farsi_phrase_what_is_your_name">tinnә oyaase\'nә</string>
+
+    <!-- Farsi translation for phrase "My name is..." -->
+    <string name="farsi_phrase_my_name_is">oyaaset...</string>
+
+    <!-- Farsi translation for phrase "How are you feeling?" -->
+    <string name="farsi_phrase_how_are_you_feeling">michәksәs?</string>
+
+    <!-- Farsi translation for phrase "I'm feeling good." -->
+    <string name="farsi_phrase_im_feeling_good">kuchi achit</string>
+
+    <!-- Farsi translation for phrase "Are you coming?" -->
+    <string name="farsi_phrase_are_you_coming">әәnәs\'aa?</string>
+
+    <!-- Farsi translation for phrase "Yes, I'm coming." -->
+    <string name="farsi_phrase_yes_im_coming">hәә\' әәnәm</string>
+
+    <!-- Farsi translation for phrase "I'm coming." -->
+    <string name="farsi_phrase_im_coming">әәnәm</string>
+
+    <!-- Farsi translation for phrase "Let's go." -->
+    <string name="farsi_phrase_lets_go">yoowutis</string>
+
+    <!-- Farsi translation for phrase "Come here." -->
+    <string name="farsi_phrase_come_here">әnni\'nem</string>
+</resources>
