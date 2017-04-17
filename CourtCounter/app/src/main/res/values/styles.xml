@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!--app bar colour-->
+        <item name="colorPrimary">#FF9800</item>
+        <!--status bar colour-->
+        <item name="colorPrimaryDark">#FB8C00</item>
+        <!--color of button-->
+        <item name="colorButtonNormal">#FF9800</item>
+    </style>
+
+    <!-- TextView Team name Theme -->
+    <style name="TextViewTeamNameTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- TextView Team score Theme -->
+    <style name="TextViewTeamScoreTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <!-- Button Theme -->
+    <style name="ButtonTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+    </style>
+</resources>
