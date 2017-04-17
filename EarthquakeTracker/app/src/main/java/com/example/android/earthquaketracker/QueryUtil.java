@@ -145,7 +145,7 @@ public class QueryUtil {
             JSONArray earthquakeArray = baseJsonResponse.getJSONArray("features");
             int arrayLength = earthquakeArray.length();
 
-            //for each eathquake in the array creat an earthquake object
+            //for each earthquake in the array creat an earthquake object
             for (int i = 0; i < arrayLength; i++) {
                 JSONObject currentEarthquake = earthquakeArray.getJSONObject(i);
                 JSONObject properties = currentEarthquake.getJSONObject("properties");
