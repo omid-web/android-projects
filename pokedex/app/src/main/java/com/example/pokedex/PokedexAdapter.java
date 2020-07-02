@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -26,7 +28,49 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.PokedexViewHolder> {
+public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.PokedexViewHolder> implements Filterable {
+    @Override
+    public Filter getFilter() {
+        return new PokemonFilter();
+    }
+
+    private class PokemonFilter extends Filter {
+
+        @Override
+        protected FilterResults performFiltering(CharSequence charSequence) {
+            final List<Pokemon> filteredPokemon = new ArrayList<>();
+
+            if (charSequence != null) {
+                if (pokemonList != null && pokemonList.size() > 0) {
+                    String[] searchSubstringArray = charSequence.toString().toLowerCase().trim().split("[\\s,;]+");
+
+                    for (final Pokemon pokemon1 : pokemonList) {
+                        boolean matchesSearch = true;
+
+                        for (String searchSubString : searchSubstringArray) {
+                            matchesSearch = pokemon1.getName().toLowerCase().contains(searchSubString);
+                        }
+
+                        if (matchesSearch) {
+                            filteredPokemon.add(pokemon1);
+                        }
+                    }
+                }
+            }
+
+            FilterResults results = new FilterResults();
+            results.values = filteredPokemon;
+            results.count = filteredPokemon.size();
+            return results;
+        }
+
+        @Override
+        protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+            pokemonList = (List<Pokemon>) filterResults.values;
+            notifyDataSetChanged();
+        }
+    }
+
     public static class PokedexViewHolder extends RecyclerView.ViewHolder {
         public LinearLayout containerView;
         public TextView textView;
