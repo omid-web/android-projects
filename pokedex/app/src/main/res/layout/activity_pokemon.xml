@@ -12,27 +12,51 @@
         android:id="@+id/pokemon_name"
         android:textSize="18dp"
         android:paddingTop="10dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:text="Bulbasur"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pokemon_number"
         android:textSize="16dp"
         android:paddingTop="5dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:text="1"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pokemon_type1"
         android:textSize="16dp"
         android:paddingTop="5dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:text="grass"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pokemon_type2"
         android:textSize="16dp"
         android:paddingTop="5dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:text="fighting"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_catch"
+        android:textAlignment="center"
+        android:text="Catch"
+        android:onClick="toggleCatch"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/pokemon_sprite"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_description"
+        android:text="He is green and uses grass attacks" />
 
 </LinearLayout>
